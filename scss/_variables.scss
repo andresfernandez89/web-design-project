@@ -1,0 +1,42 @@
+$font-family: 'Cairo', sans-serif;
+$font-size: 4rem;
+$color-team: #007b5e;
+$color-footer: #FFF;
+$border-radius: 20px;
+$color-h2: #264653;
+
+
+/*******condicional*********/
+
+$colores: violet, blue, purple;
+
+@each $var in $colores {
+    .btn-#{$var} {
+        background-color: $var;
+    }    
+}
+
+$color-bg: black;
+
+div {
+    @if $color-bg == "black"{
+        color: white;
+    }
+    @else if $color-bg == "blue"{
+        color: white;
+    }
+    @else {
+        color: black;
+    }
+}
+/*******extend*********/
+.card__planes {
+    background-color: blue;
+    color:white;
+}
+.card__planes--navidad {
+    @extend.card__planes;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}

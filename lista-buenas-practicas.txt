@@ -1,0 +1,27 @@
+PUNTOS QUE SE MEJORARON RESPECTO AL SEO DEL SITIO WEB:
+
+1. Se establecieron etiquetas H1,H2 Y H3 cuando correspondia, teniendo en cuenta la relevancia de cada una.
+
+2. Se OPTIMIZARON las img para que su peso no afecte en gran medida a la carga del sitio.
+
+3. Se le asignaron atributos ALT a las imagenes para la accesibilidad.
+
+3. Se establecieron FORMATOS APTOS para web como png y jpg.
+
+4. Carga de la etiqueta TITLE en cada una de las paginas.
+
+5. Carga de DESCRIPTION de la pagina en cada una de ellas.
+
+6. Carga de KEYWORDS en cada una de las paginas.
+
+7. Se establecieron COMENTARIOS en el codigo para una mejor lectura.
+
+8. Se aplicaron BUENAS PRACTICAS en la estructura del codigo.
+
+9. Se establecieron ENLACES INTERNOS en nuestro sitio web para una mejor usabilidad.
+
+10. Se aplico el MODO RESPONSIVE.
+
+11. Se vincularon las REDES SOCIALES para establecer una estrategia digital.
+
+12. Se elaboro CONTENIDO DE CALIDAD para generar impacto en nuestros usuarios.
