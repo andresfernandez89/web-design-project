@@ -9,6 +9,7 @@
         <meta name="author" content="Andres Fernandez">
         <meta name="copyright" content="Andres Fernandez"> 
         <link rel="stylesheet" href="library/all.css">
+        <link rel="stylesheet" href="library/animate.css">
         <link rel="stylesheet" href="library/bootstrap.css" />
         <link rel="stylesheet" href="css/main.css" />
     </head>
@@ -63,9 +64,9 @@
         <!-- Planes-->
         <div class="container-fluid">
             <div class="row header__wrapp py-4">
-                <img class="header__planes__img col-lg-8 d-none d-lg-block py-5" src="images/planes/planes.png" alt="nuestros planes">
-                <h2 class="header__planes__title col-lg-4 text-center mt-sm-5 d-flex align-items-center justify-content-center">Nuestros Planes</h2>
-                <img class="header__planes__img col-lg-8 d-block d-lg-none w-100" src="images/planes/planes.png" alt="nuestros planes">
+                <img class="header__planes__img col-lg-8 d-none d-lg-block py-5 wow fadeInUp" src="images/planes/planes.png" alt="nuestros planes">
+                <h2 class="header__planes__title col-lg-4 text-center mt-sm-5 d-flex align-items-center justify-content-center wow rollIn">Nuestros Planes</h2>
+                <img class="header__planes__img col-lg-8 d-block d-lg-none w-100 wow fadeInUp" src="images/planes/planes.png" alt="nuestros planes">
             </div>
         </div> 
         <section id="planes" class="py-5">
@@ -133,8 +134,8 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Hasta 5 Paginas</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Tienda de Productos</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Integracion de Pasarelas de Pago</li>
-                                <li class="text-muted">#<span class="fa-li"><i class="fas fa-times"></i></span>Mantenimiento Mensual</li>
-                                <li class="text-muted">#<span class="fa-li"><i class="fas fa-times"></i></span>Mantenimiento Mensual</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Mantenimiento Mensual</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Mantenimiento Mensual</li>
                             </ul>
                             <a href="#" class="btn btn-block btn-primary text-uppercase">Lo Quiero!</a>
                         </div>
@@ -225,6 +226,11 @@
     speedAsDuration: true,
     offset: 20,
 });
+    </script>
+        </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
     </script>
     </body>
 </html>
