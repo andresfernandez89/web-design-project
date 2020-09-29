@@ -25,13 +25,24 @@ img {
 }
 
 /*********home-header*************/
+.header__home__main {
+    h1 {
+        color: #4c4c4c;
+    }
+    .header__home__main__typed {
+        font-size: 1.3rem;
+    }
+    .word-typed {
+        color:#6c63ff;
+    }
+}
 .header__home {
-    background-image: url("../images/home/header-home.jpg");
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     font-feature-settings: inherit;
+    position: relative;
 }
 /*********header-planes*************/
 .header__planes__img {
@@ -345,6 +356,16 @@ section {
     .header__planes__img {
         width: 400px;
         height: 300px;
+        text-align: center;
+    }
+    .header__home__main {
+            h1 {
+                font-size: 4rem;
+            }
+            img {
+                width: 80%;
+                height: 300px;
+            } 
     }
 }
 
@@ -360,4 +381,5 @@ section {
         opacity: 1;
     }
 }
+
 
