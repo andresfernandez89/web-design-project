@@ -219,18 +219,13 @@ section {
     }
 }
 /***********contact***************/
-#contact {
-    background-color: #e9f6ec;
+.contact__wrapp {
+    background-color: #a8dadc;
 
-    .contact__wrapp {
-        background-color: #e9f6ec;
-    
-        .contact__details__card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }  
-    } 
-}
-
+    .contact__details__card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }  
+} 
 /***********Planes***************/
 .header__planes__img {
     width: 600px;
