@@ -1,6 +1,6 @@
 # Proyecto
 
-<strong>FOCUZ STUDIO - Servicios de Sitios Web </strong>
+<strong>FOCUZ STUDIO - Servicio de Sitios Web </strong>
 
 <a href="https://andresfernandez89.github.io/Proyecto/"><strong>Ver Proyecto</strong><a/>
 
