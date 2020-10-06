@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    overflow-x: hidden;
+}
 h2 {
     font-size: $font-size;
     font-family: $font-family;
@@ -17,13 +20,11 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-
 /*********menu*************/
 .header__menu--desktop li a:hover {
     background-color: grey;
     border-radius: $border-radius;
 }
-
 /************contact-footer***********/
 #footer__contact {
 
@@ -44,7 +45,6 @@ img {
             letter-spacing: 3px;
         }
     }
-
     .footer__contact__adress {
 
         li {
@@ -104,7 +104,6 @@ img {
         }
     }
 }
-
 /*********services*************/
 section {
     
@@ -131,7 +130,6 @@ section {
         to   { transform: translate(0, -0px); }   
     }
 }
-
 /*******************team********************/
 #team {
     color: #313437;
@@ -224,17 +222,41 @@ section {
 
     .contact__wrapp {
         background-color: #e9f6ec;
-    
-        .contact__details__card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }  
-    } 
-}
 
+            .contact__details__card {
+                border: none;
+            }
+
+            .contact__details__card::before{
+                position: absolute;
+                content: "";
+                z-index: -1;
+                bottom: 20px;
+                left: 8px;
+                right: 8px;
+                top: 20px;
+                background: #aaa;
+                box-shadow: 0 0 25px 10px #aaa;
+                border-radius: 10px/40px;
+            }
+            .contact__details__card::after{
+                position: absolute;
+                content: "";
+                z-index: -1;
+                bottom: 14px;
+                left: 30px;
+                right: 30px;
+                top: 14px;
+                background: #aaa;
+                box-shadow: 0 0 25px 17px #aaa;
+                border-radius: 100px/10px;
+            }       
+    }  
+} 
 /***********Planes***************/
 .header__planes__img {
     width: 600px;
-    height: 500px;
+    max-width: 50%;
     margin: 40px auto;
 }
 
@@ -354,6 +376,7 @@ section {
     .header__planes__img {
         width: 300px;
         height: 280px;
+        max-width: 100%;
         text-align: center;
     }
     .header__home__main {
