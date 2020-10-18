@@ -27,4 +27,4 @@ Acepto sugerencias y estoy abierto a nuevos trabajos.
 
 Activamente buscando la insercion laboral IT.
 
-Contacto: <a href="https://www.linkedin.com/in/andresfernandezdeveloper/"><strong>LINKEDIN</strong><a/>
+Contacto: <a href="https://www.linkedin.com/in/andresfernandezdeveloper/" target="_blank"><strong>LINKEDIN</strong><a/>
