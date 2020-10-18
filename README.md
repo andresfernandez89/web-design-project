@@ -2,7 +2,7 @@
 
 <strong>FOCUZ STUDIO - Servicio de Sitios Web </strong>
 
-<a href="https://andresfernandez89.github.io/Proyecto/"><strong>Ver Proyecto</strong><a/>
+<a href="https://andresfernandez89.github.io/Proyecto-Final-Desarrollo-Web/"><strong>Ver Proyecto</strong><a/>
 
 Sitio desarrollado a lo largo del curso de Diseño Web.
 
