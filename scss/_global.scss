@@ -314,6 +314,8 @@ section {
 }
 .gallery__projects {
 
+    overflow: hidden;
+
     .gallery__projects__customers {
 
         &:hover{
