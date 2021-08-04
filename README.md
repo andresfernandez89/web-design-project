@@ -1,30 +1,21 @@
-# Proyecto
+## FOCUZ STUDIO - Website Service
 
-<strong>FOCUZ STUDIO - Servicio de Sitios Web </strong>
+[**View Project**](https://andresfernandez89.github.io/Project-Final-Development-Web/)
 
-<a href="https://andresfernandez89.github.io/Proyecto-Final-Desarrollo-Web/"><strong>Ver Proyecto</strong><a/>
+Site developed throughout the Web Design course.
 
-Sitio desarrollado a lo largo del curso de Diseño Web.
+It has 3 sections "Home" - "Plans" - "Our Works".
 
-Cuenta con 3 secciones "Home" - "Planes" - "Nuestros Trabajos".
+It was applied to Responsive Design.
 
-Se aplico a todo el proyecto Responsive Design.
+It was developed in 18 installments using:
 
-El mismo fue desarrollado a lo largo de 18 entregas utilizando:
-- Flexbox
+- Flexible box
 - Grids
 - Bootstrap
 - Sass
-- Librerias de JS como Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
-- Buenas Practicas SEO
-- Sistema de control de versiones Git
-- Subida al Servidor
-- Analisis de nuestro cliente
-
-Actualmente se encuentra en fase de desarrollo para poder establecer nuevas funcionalidades.
-
-Acepto sugerencias y estoy abierto a nuevos trabajos.
-
-Activamente buscando la insercion laboral IT.
-
-Contacto: <a href="https://www.linkedin.com/in/andresfernandezdeveloper/"><strong>LINKEDIN</strong><a/>
+- JS Frameworks:Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
+- SEO
+- GIT
+- Upload to the server
+- Customer Analysis
