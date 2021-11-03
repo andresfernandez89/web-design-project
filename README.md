@@ -14,7 +14,7 @@ It was developed in 18 installments using:
 - Grids
 - Bootstrap
 - Sass
-- JS Frameworks:Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
+- JS Libraries: Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
 - SEO
 - GIT
 - Upload to the server
