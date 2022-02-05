@@ -1,7 +1,7 @@
 ## FOCUZ STUDIO - Website Service
 
-[**View Project**](https://andresfernandez89.github.io/web-design-project/){:target="\_blank"}
-
+[**View Project**](https://andresfernandez89.github.io/web-design-project/)
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 Site developed throughout the Web Design course.
 
 It has 3 sections "Home" - "Plans" - "Our Works".
