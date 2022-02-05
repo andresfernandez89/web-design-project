@@ -1,6 +1,6 @@
 ## FOCUZ STUDIO - Website Service
 
-[**View Project**](https://andresfernandez89.github.io/focuz-studio-project/)
+[**View Project**](https://andresfernandez89.github.io/web-design-project/)
 
 Site developed throughout the Web Design course.
 
