@@ -1,364 +1,524 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Diseno de Sitios Web Personalizados - Focuz Studio</title>
-        <meta name="description" content="Empresa dedicada al diseno y creacion de Sitios Web personalizados. Aplicamos las ultimas tendencias del mercado.">
-        <meta name="keywords" content="DISENO, WEB, SITIO, PAGINA, MARKETING, WEBSITE, MDQ, DIGITAL, POSICIONAMIENTO, ONLINE, SERVICIOS, TIENDA, ECOMMERCE" >
-        <meta name="author" content="Andres Fernandez">
-        <meta name="copyright" content="Andres Fernandez">
-        <link rel="shortcut icon" href="assets/images/logos/favicon.ico" type="image/x-icon"> 
-        <link rel="stylesheet" href="library/all.css">
-        <link rel="stylesheet" href="library/animate.css">
-        <link rel="stylesheet" href="library/bootstrap.css" />
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
-    <body>
-        <header class="header__home vh-100 d-flex align-items-center">
-            <div>
-                <!-- Menu-Desktop-->    
-                <nav class="header__menu--desktop navbar fixed-top navbar-dark bg-light d-none d-sm-block">
-                    <div class="d-flex justify-content-around">
-                        <a href="index.html"><img src="assets/images/logos/logo-focuz.png" alt="logo de focuz studio"></a>
-                        <ul class="nav font-weight-bold">
-                            <li class="nav-item">
-                                <a data-scroll class="nav-link text-dark" href="#team">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="planes.html">Planes</a>
-                            </li>
-                            <li class="nav-item">   
-                                <a class="nav-link text-dark" href="nuestros-trabajos.html">Nuestros Trabajos</a>
-                            </li>
-                            <li class="nav-item">
-                            <a data-scroll class="nav-link text-dark" href="#contact">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <!-- Menu-Responsive-->
-                <nav class="header__menu--responsive navbar fixed-top navbar-expand-md bg-transparent navbar-dark d-block d-sm-none d-flex justify-content-end w-100">
-                    <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <div class="d-flex justify-content-end">
-                            <ul class="navbar-nav font-weight-bold bg-primary w-50 p-3 text-center rounded">
-                                <li class="nav-item">
-                                    <a data-scroll class="nav-link text-white" href="#team">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="planes.html">Planes</a>
-                                </li>
-                                <li class="nav-item">   
-                                    <a class="nav-link text-white" href="nuestros-trabajos.html">Nuestros Trabajos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a data-scroll class="nav-link text-white" href="#contact">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="container">
-                <div class="header__home__main row d-flex d-inline-block justify-content-center h-75 mt-md-5">
-                    <img class="col-md-6 d-none d-md-block wow bounceIn" src="assets/images/home/main-home.svg" alt="foto de portada">
-                    <div class="col-12 col-md-6 container h-100">
-                        <div class="d-flex flex-column justify-content-center align-content-md-center align-content-start text-center h-100 ">
-                            <h1 class="display-3 mb-2 mt-md-5 d-none d-sm-block"><strong>SITIOS WEB</strong></h1>
-                            <h1 class="display-3 mb-2 mt-md-5 d-block d-sm-none"><strong>FOCUZ STUDIO</strong></h1>
-                            <div class=" d-inline">
-                                <div class="lead text-dark mb-md-5" id="typed-strings">
-                                    <p>Tu sitio hecho con <strong class="word-typed">Creatividad</strong></p>
-                                    <p>Tu sitio hecho con <strong class="word-typed">Diseño</strong></p>
-                                    <p>Tu sitio hecho con <strong class="word-typed">Compromiso</strong></p>
-                                    <p>Tu sitio hecho con <strong class="word-typed">Vanguardia</strong></p>
-                                    <p>Tu sitio hecho con <strong class="word-typed">Profesionalismo</strong></p>
-                                    <p>Tu sitio hecho con <strong class="word-typed">Humildad</strong></p>
-                                </div>
-                                <span id="typed" class="header__home__main__typed"></span>
-                            </div>
-                            <p><a href="planes.html" class="btn bg-danger shadow-lg btn-round text-light btn-lg btn-rised mt-5 d-none">Nuestros Paquetes ></a></p>
-                        </div>      
-                    </div>
-                    <img class="col-md-6 d-block d-md-none d-flex justify-content-center wow bounceIn" src="assets/images/home/main-home.svg" alt="foto de portada">
-                </div>
-            </div>
-        </header> 
-        <!--Services-->
-            <!-- web design -->  
-        <section class="services__home-bg services__home-bg--design pt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown" data-wow-duration="3s">Diseño Web</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <h3 class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"><small>Diseñamos Paginas Web con las ultimas tendencias del mercado teniendo en cuenta la usabilidad y accesibilidad del sitio.</small></h3>
-                    </div>
-                    <div class="col-12 col-md-6 align-self-center">
-                        <img src="assets/images/home/diseno-web.png" alt="diseno-web" class="rounded floating">
-                    </div>
-                </div>        
-            </div>
-        </section> 
-            <!-- position-service -->  
-        <section class="services__home-bg services__home-bg--position">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="services__home-title services__home-title--size d-flex justify-content-center align-items-center font-weight-bold w-100 py-5 mt-5 wow fadeInDown" data-wow-duration="3s">Posicionamiento</h2>
-                    </div>
-                </div>
-            </div>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 d-none d-md-block align-self-center">
-                        <img src="assets/images/home/posicionamiento-web.png" alt="posicionamiento-web" class="rounded floating">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"><small>Nos basamos en las mejores tecnicas SEO. Hoy mas que nunca hay que lograr posicionarse en todas las plataformas con respecto a la competencia.</small></h3>
-                    </div>
-                    <div class="col-12 d-block d-md-none align-self-center">
-                        <img src="assets/images/home/posicionamiento-web.png" alt="posicionamiento-web" class="rounded floating">
-                    </div>
-                </div>
-            </div>
-        </section> 
-            <!-- mkt-service -->          
-        <section class="services__home-bg services__home-bg--mkt">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown" data-wow-duration="3s">Marketing Digital</h2>
-                    </div>
-                </div>
-            </div>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <h3 class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"><small>Incorporamos todas las herramientas para mejorar las conversiones dentro del
-                            sitio. Siempre tendras un objetivo con tu Sitio Web, por ejemplo "Una Venta".</small></h3>
-                    </div>
-                    <div class="col-12 col-md-6 align-self-center">
-                        <img src="assets/images/home/marketing-digital.png" alt="marketing-digital" class="rounded floating">
-                    </div>
-                </div>
-            </div>
-        </section> 
-            <!-- adaptation-service -->
-        <section class="services__home-bg services__home-bg--adaptation pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown" data-wow-duration="3s">Adaptacion Mobile</h2>
-                    </div>
-                </div>
-            </div>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 d-none d-md-block align-self-center">
-                        <img src="assets/images/home/responsive-desing.png" alt="responsive-design" class="rounded floating">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"><small>Nos direccionamos en la filosofia Mobile First. En la actualidad, los usuarios navegan principalmente desde sus celulares.</small></h3>
-                    </div>
-                    <div class="col-12 d-block d-md-none align-self-center">
-                        <img src="assets/images/home/responsive-desing.png" alt="responsive-design" class="rounded floating">
-                    </div>
-                </div>        
-            </div>
-        </section> 
-        <!-- team -->
-        <div id="team" class="pt-5">
-            <div class="container">
-                <div class="team__tittle">
-                    <h2 class="text-center">Nuestro Equipo</h2>
-                </div>
-                <div class="team__people row d-flex justify-content-center">
-                    <div class="col-md-6 col-lg-4 people">
-                        <div class="people__box"><img class="rounded-circle" data-bs-hover-animate="pulse" src="assets/images/home/andres-fernandez.jpg" alt="Andres Fernandez">
-                            <h3 class="people__box__name">Andres Fernandez</h3>
-                            <p class="people__box__title">Diseñador Web</p>
-                            <p class="people__box__description"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br><br></p>
-                            <div class="people__box__social"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 people">
-                        <div class="people__box"><img class="rounded-circle" data-bs-hover-animate="pulse" src="assets/images/home/santiago-nizzi.jpg" alt="Santiago Nizzi">
-                            <h3 class="people__box__name">Santiago Nizzi</h3>
-                            <p class="people__box__title">Programador Web</p>
-                            <p class="people__box__description"><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ismal<br><br></p>
-                            <div class="people__box__social"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- contact -->
-        <section id="contact" class="py-5">
-            <div class="container contact__wrapp p-4">
-                <div class="row">           
-                    <form class="col-md-6 contact__form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <label for="formGroupName">Nombre/s</label>
-                                <input type="text" class="form-control" id="formGroupName" placeholder="Diego Armando">
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <label for="formGroupUsername">Apellido/s</label>
-                                <input type="text" class="form-control" id="formGroupUsername" placeholder="Maradona">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupEmail">E-mail</label>
-                            <input type="text" class="form-control" id="formGroupEmail" placeholder="focuzstudio@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupCel">Celular</label>
-                            <input type="text" class="form-control" id="formGroupCel" placeholder="2236150380">
-                        </div>
-                        <select class="custom-select mb-2">
-                            <option selected>Elije una opcion</option>
-                            <option value="1">One-page</option>
-                            <option value="2">Sitio Institucional</option>
-                            <option value="3">Tienda Online</option>
-                            <option value="4">Otra consulta</option>
-                        </select>
-                        <div class="form-group">
-                            <label for="FormControlTextarea">Mensaje</label>
-                            <textarea class="form-control" id="FormControlTextarea" rows="3" placeholder="Contanos en que podemos ayudarte"></textarea>
-                        </div>
-                        <div>
-                            <label for="formGroupFile">Adjuntar un archivo</label>
-                            <input type="file" class="form-control-file" id="exampleFormFile">
-                            <button type="button" class="btn btn-primary my-2">Enviar</button>
-                        </div>
-                    </form>
-                    <div class="col-md-6 contact__details d-none d-md-block">
-                        <div class="card contact__details__card text-center">
-                            <div class="card-body">
-                                <h2 class="text-center mb-5">Contacto</h2>
-                                <div>
-                                    <p><strong>Direccion: Av.Peralta Ramos 2500</strong></p>
-                                    <p><strong>Telefono: +54 9 2236150380</strong></p>
-                                    <p><strong>Email: consultas@focuzstudio.com</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contacto__details__img w-100 h-75 d-flex justify-content-center align-content-start">
-                            <img class=" h-50 w-100" src="assets/images/home/contact.svg" alt="contacto">
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </section>
-        <footer>
-            <!-- footer -->
-            <div id="footer__contact" class="container-fluid">
-                <div class="row">
-                    <div class="d-flex flex-wrap justify-content-center justify-items-center w-100 text-center bg-dark pt-4">
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <ul class="footer__contact__adress">
-                                <span>Adress</span>    
-                                <li>
-                                    <p>Av.Peralta Ramos 2500</p>
-                                </li>
-                                <li>
-                                    <p>Mar del Plata</p>
-                                </li>
-                                <li>
-                                    <p>2236150380</p>
-                                </li>
-                                <li>
-                                    <p>consultas@focuzstudio.com</p>
-                                </li>
-                            </ul>
-                        </div>      
-                        <div class="col-md-4 d-none d-md-block">
-                            <ul class="footer__contact__menu">
-                                <span>Quick Links</span>    
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>                                      
-                                <li>
-                                    <a href="planes.html">Planes</a>
-                                </li>                                       
-                                <li>
-                                    <a href="nuestros-trabajos.html">Nuestros Trabajos</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">Contacto</a>
-                                </li>                                                                          
-                            </ul>
-                        </div>                   
-                        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                            <ul class="footer__contact__social">
-                                <span>Social</span>    
-                                <li>
-                                    <a href="#" ><i class="fab fa-facebook-square fa-3x"></i></a>
-                                </li>                                      
-                                <li>
-                                    <a href="#"><i class="fab fa-instagram-square fa-3x px-2"></i></a>
-                                </li>                                        
-                                <li>
-                                    <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-                                </li>                                                                                                           
-                            </ul>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <!-- Copyright -->
-            <div class="footer__copyright text-center py-3">© 2020 Copyright -
-                <a href="#">focuz-studio.com</a>
-            </div>
-        </footer>
-        <!-- jquery -->
-        <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
-        </script>  
-        <!-- popper -->  
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous">
-        </script>
-        <!-- bootstrap -->
-        <script src="js/bootstrap.js"></script>
-        <!-- typed -->
-        <script src="js/typed.min.js"></script>
-        <script>
-            var typed = new Typed('#typed', {
-            stringsElement: '#typed-strings',
-            loop: true,
-            backSpeed: 50,
-            typeSpeed: 50
-            });
-        </script>
-        <!-- smooth-scroll -->
-        <script src="js/smooth-scroll.polyfills.min.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#team"],[href*="#contact"]', {
-        speed: 2000,
-        speedAsDuration: true,
-        offset: 80,
-        });
-        </script>
-        <!-- wow -->
-        <script src="js/wow.min.js"></script>
-        <script>
-        new WOW().init();
-        </script>
-    </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Diseno de Sitios Web Personalizados - Focuz Studio</title>
+		<meta
+			name="description"
+			content="Empresa dedicada al diseno y creacion de Sitios Web personalizados. Aplicamos las ultimas tendencias del mercado."
+		/>
+		<meta
+			name="keywords"
+			content="DISENO, WEB, SITIO, PAGINA, MARKETING, WEBSITE, MDQ, DIGITAL, POSICIONAMIENTO, ONLINE, SERVICIOS, TIENDA, ECOMMERCE"
+		/>
+		<meta name="author" content="Andres Fernandez" />
+		<meta name="copyright" content="Andres Fernandez" />
+		<link rel="shortcut icon" href="assets/images/logos/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="library/all.css" />
+		<link rel="stylesheet" href="library/animate.css" />
+		<link rel="stylesheet" href="library/bootstrap.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header class="header__home vh-100 d-flex align-items-center">
+			<div>
+				<!-- Menu-Desktop-->
+				<nav class="header__menu--desktop navbar fixed-top navbar-dark bg-light d-none d-sm-block">
+					<div class="d-flex justify-content-around">
+						<a href="index.html"
+							><img src="assets/images/logos/logo-focuz.png" alt="logo de focuz studio"
+						/></a>
+						<ul class="nav font-weight-bold">
+							<li class="nav-item">
+								<a data-scroll class="nav-link text-dark" href="#team">Nosotros</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="planes.html">Planes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="nuestros-trabajos.html">Nuestros Trabajos</a>
+							</li>
+							<li class="nav-item">
+								<a data-scroll class="nav-link text-dark" href="#contact">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- Menu-Responsive-->
+				<nav
+					class="header__menu--responsive navbar fixed-top navbar-expand-md bg-transparent navbar-dark d-block d-sm-none d-flex justify-content-end w-100"
+				>
+					<button
+						class="navbar-toggler bg-secondary"
+						type="button"
+						data-toggle="collapse"
+						data-target="#collapsibleNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<div class="d-flex justify-content-end">
+							<ul class="navbar-nav font-weight-bold bg-primary w-50 p-3 text-center rounded">
+								<li class="nav-item">
+									<a data-scroll class="nav-link text-white" href="#team">Nosotros</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="planes.html">Planes</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="nuestros-trabajos.html">Nuestros Trabajos</a>
+								</li>
+								<li class="nav-item">
+									<a data-scroll class="nav-link text-white" href="#contact">Contacto</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="container">
+				<div
+					class="header__home__main row d-flex d-inline-block justify-content-center h-75 mt-md-5"
+				>
+					<img
+						class="col-md-6 d-none d-md-block wow bounceIn"
+						src="assets/images/home/main-home.svg"
+						alt="foto de portada"
+					/>
+					<div class="col-12 col-md-6 container h-100">
+						<div
+							class="d-flex flex-column justify-content-center align-content-md-center align-content-start text-center h-100"
+						>
+							<h1 class="display-3 mb-2 mt-md-5 d-none d-sm-block"><strong>SITIOS WEB</strong></h1>
+							<h1 class="display-3 mb-2 mt-md-5 d-block d-sm-none">
+								<strong>FOCUZ STUDIO</strong>
+							</h1>
+							<div class="d-inline">
+								<div class="lead text-dark mb-md-5" id="typed-strings">
+									<p>Tu sitio hecho con <strong class="word-typed">Creatividad</strong></p>
+									<p>Tu sitio hecho con <strong class="word-typed">Diseño</strong></p>
+									<p>Tu sitio hecho con <strong class="word-typed">Compromiso</strong></p>
+									<p>Tu sitio hecho con <strong class="word-typed">Vanguardia</strong></p>
+									<p>Tu sitio hecho con <strong class="word-typed">Profesionalismo</strong></p>
+									<p>Tu sitio hecho con <strong class="word-typed">Humildad</strong></p>
+								</div>
+								<span id="typed" class="header__home__main__typed"></span>
+							</div>
+							<p>
+								<a
+									href="planes.html"
+									class="btn bg-danger shadow-lg btn-round text-light btn-lg btn-rised mt-5 d-none"
+									>Nuestros Paquetes ></a
+								>
+							</p>
+						</div>
+					</div>
+					<img
+						class="col-md-6 d-block d-md-none d-flex justify-content-center wow bounceIn"
+						src="assets/images/home/main-home.svg"
+						alt="foto de portada"
+					/>
+				</div>
+			</div>
+		</header>
+		<!--Services-->
+		<!-- web design -->
+		<section class="services__home-bg services__home-bg--design pt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2
+							class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown"
+							data-wow-duration="3s"
+						>
+							Diseño Web
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h3
+							class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"
+						>
+							<small
+								>Diseñamos Paginas Web con las ultimas tendencias del mercado teniendo en cuenta la
+								usabilidad y accesibilidad del sitio.</small
+							>
+						</h3>
+					</div>
+					<div class="col-12 col-md-6 align-self-center">
+						<img
+							src="assets/images/home/diseno-web.png"
+							alt="diseno-web"
+							class="rounded floating"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- position-service -->
+		<section class="services__home-bg services__home-bg--position">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2
+							class="services__home-title services__home-title--size d-flex justify-content-center align-items-center font-weight-bold w-100 py-5 mt-5 wow fadeInDown"
+							data-wow-duration="3s"
+						>
+							Posicionamiento
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 d-none d-md-block align-self-center">
+						<img
+							src="assets/images/home/posicionamiento-web.png"
+							alt="posicionamiento-web"
+							class="rounded floating"
+						/>
+					</div>
+					<div class="col-12 col-md-6">
+						<h3
+							class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"
+						>
+							<small
+								>Nos basamos en las mejores tecnicas SEO. Hoy mas que nunca hay que lograr
+								posicionarse en todas las plataformas con respecto a la competencia.</small
+							>
+						</h3>
+					</div>
+					<div class="col-12 d-block d-md-none align-self-center">
+						<img
+							src="assets/images/home/posicionamiento-web.png"
+							alt="posicionamiento-web"
+							class="rounded floating"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- mkt-service -->
+		<section class="services__home-bg services__home-bg--mkt">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2
+							class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown"
+							data-wow-duration="3s"
+						>
+							Marketing Digital
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h3
+							class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"
+						>
+							<small
+								>Incorporamos todas las herramientas para mejorar las conversiones dentro del sitio.
+								Siempre tendras un objetivo con tu Sitio Web, por ejemplo "Una Venta".</small
+							>
+						</h3>
+					</div>
+					<div class="col-12 col-md-6 align-self-center">
+						<img
+							src="assets/images/home/marketing-digital.png"
+							alt="marketing-digital"
+							class="rounded floating"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- adaptation-service -->
+		<section class="services__home-bg services__home-bg--adaptation pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2
+							class="services__home-title d-flex justify-content-center align-items-center font-weight-bold py-5 mt-5 wow fadeInDown"
+							data-wow-duration="3s"
+						>
+							Adaptacion Mobile
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 d-none d-md-block align-self-center">
+						<img
+							src="assets/images/home/responsive-desing.png"
+							alt="responsive-design"
+							class="rounded floating"
+						/>
+					</div>
+					<div class="col-12 col-md-6">
+						<h3
+							class="services__home-text d-flex align-items-center align-content-center text-center h-100 rounded"
+						>
+							<small
+								>Nos direccionamos en la filosofia Mobile First. En la actualidad, los usuarios
+								navegan principalmente desde sus celulares.</small
+							>
+						</h3>
+					</div>
+					<div class="col-12 d-block d-md-none align-self-center">
+						<img
+							src="assets/images/home/responsive-desing.png"
+							alt="responsive-design"
+							class="rounded floating"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- team -->
+		<div id="team" class="pt-5">
+			<div class="container">
+				<div class="team__tittle">
+					<h2 class="text-center">Nuestro Equipo</h2>
+				</div>
+				<div class="team__people row d-flex justify-content-center">
+					<div class="col-md-6 col-lg-4 people">
+						<div class="people__box">
+							<img
+								class="rounded-circle"
+								data-bs-hover-animate="pulse"
+								src="assets/images/home/andres-fernandez.jpg"
+								alt="Andres Fernandez"
+							/>
+							<h3 class="people__box__name">Andres Fernandez</h3>
+							<p class="people__box__title">Diseñador Web</p>
+							<p class="people__box__description">
+								<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt<br /><br />
+							</p>
+							<div class="people__box__social">
+								<a href="#"><i class="fab fa-facebook-f"></i></a
+								><a href="#"><i class="fab fa-twitter"></i></a
+								><a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 people">
+						<div class="people__box">
+							<img
+								class="rounded-circle"
+								data-bs-hover-animate="pulse"
+								src="assets/images/home/santiago-nizzi.jpg"
+								alt="Santiago Nizzi"
+							/>
+							<h3 class="people__box__name">Santiago Nizzi</h3>
+							<p class="people__box__title">Programador Web</p>
+							<p class="people__box__description">
+								<br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat ismal<br /><br />
+							</p>
+							<div class="people__box__social">
+								<a href="#"><i class="fab fa-facebook-f"></i></a
+								><a href="#"><i class="fab fa-twitter"></i></a
+								><a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- contact -->
+		<section id="contact" class="py-5">
+			<div class="container contact__wrapp p-4">
+				<div class="row">
+					<form class="col-md-6 contact__form">
+						<div class="row">
+							<div class="col-md-6 form-group">
+								<label for="formGroupName">Nombre/s</label>
+								<input
+									type="text"
+									class="form-control"
+									id="formGroupName"
+									placeholder="Diego Armando"
+								/>
+							</div>
+							<div class="col-md-6 form-group">
+								<label for="formGroupUsername">Apellido/s</label>
+								<input
+									type="text"
+									class="form-control"
+									id="formGroupUsername"
+									placeholder="Maradona"
+								/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="formGroupEmail">E-mail</label>
+							<input
+								type="text"
+								class="form-control"
+								id="formGroupEmail"
+								placeholder="focuzstudio@gmail.com"
+							/>
+						</div>
+						<div class="form-group">
+							<label for="formGroupCel">Celular</label>
+							<input type="text" class="form-control" id="formGroupCel" placeholder="2236150380" />
+						</div>
+						<select class="custom-select mb-2">
+							<option selected>Elije una opcion</option>
+							<option value="1">One-page</option>
+							<option value="2">Sitio Institucional</option>
+							<option value="3">Tienda Online</option>
+							<option value="4">Otra consulta</option>
+						</select>
+						<div class="form-group">
+							<label for="FormControlTextarea">Mensaje</label>
+							<textarea
+								class="form-control"
+								id="FormControlTextarea"
+								rows="3"
+								placeholder="Contanos en que podemos ayudarte"
+							></textarea>
+						</div>
+						<div>
+							<label for="formGroupFile">Adjuntar un archivo</label>
+							<input type="file" class="form-control-file" id="exampleFormFile" />
+							<button type="button" class="btn btn-primary my-2">Enviar</button>
+						</div>
+					</form>
+					<div class="col-md-6 contact__details d-none d-md-block">
+						<div class="card contact__details__card text-center">
+							<div class="card-body">
+								<h2 class="text-center mb-5">Contacto</h2>
+								<div>
+									<p><strong>Direccion: Av.Peralta Ramos 2500</strong></p>
+									<p><strong>Telefono: +54 9 2236150380</strong></p>
+									<p><strong>Email: consultas@focuzstudio.com</strong></p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="contacto__details__img w-100 h-75 d-flex justify-content-center align-content-start"
+						>
+							<img class="h-50 w-100" src="assets/images/home/contact.svg" alt="contacto" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<!-- footer -->
+			<div id="footer__contact" class="container-fluid">
+				<div class="row">
+					<div
+						class="d-flex flex-wrap justify-content-center justify-items-center w-100 text-center bg-dark pt-4"
+					>
+						<div class="col-12 col-sm-6 col-md-4">
+							<ul class="footer__contact__adress">
+								<span>Adress</span>
+								<li>
+									<p>Av.Peralta Ramos 2500</p>
+								</li>
+								<li>
+									<p>Mar del Plata</p>
+								</li>
+								<li>
+									<p>2236150380</p>
+								</li>
+								<li>
+									<p>consultas@focuzstudio.com</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4 d-none d-md-block">
+							<ul class="footer__contact__menu">
+								<span>Quick Links</span>
+								<li>
+									<a href="#">Home</a>
+								</li>
+								<li>
+									<a href="planes.html">Planes</a>
+								</li>
+								<li>
+									<a href="nuestros-trabajos.html">Nuestros Trabajos</a>
+								</li>
+								<li>
+									<a href="#contact">Contacto</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+							<ul class="footer__contact__social">
+								<span>Social</span>
+								<li>
+									<a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fab fa-instagram-square fa-3x px-2"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Copyright -->
+			<div class="footer__copyright text-center py-3">
+				<script>
+					document.querySelector(
+						".footer__copyright"
+					).textContent = `© ${new Date().getFullYear()}`;
+				</script>
+				Copyright -
+				<a href="#">focuz-studio.com</a>
+			</div>
+		</footer>
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<!-- popper -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap.js"></script>
+		<!-- typed -->
+		<script src="js/typed.min.js"></script>
+		<script>
+			var typed = new Typed("#typed", {
+				stringsElement: "#typed-strings",
+				loop: true,
+				backSpeed: 50,
+				typeSpeed: 50,
+			});
+		</script>
+		<!-- smooth-scroll -->
+		<script src="js/smooth-scroll.polyfills.min.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#team"],[href*="#contact"]', {
+				speed: 2000,
+				speedAsDuration: true,
+				offset: 80,
+			});
+		</script>
+		<!-- wow -->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
 </html>
-
-
