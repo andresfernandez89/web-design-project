@@ -1,21 +1,42 @@
-## FOCUZ STUDIO - Website Service
 
-[**View Project**](https://andresfernandez89.github.io/web-design-project/)
+# FOCUZ STUDIO
 
-Site developed throughout the Web Design course.
+Software services website
 
-It has 3 sections "Home" - "Plans" - "Our Works".
 
-It was applied to Responsive Design.
+## Demo
 
-It was developed in 18 installments using:
+https://andresfernandez89.github.io/web-design-project/
 
-- Flexible box
-- Grids
-- Bootstrap
-- Sass
-- JS Libraries: Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
-- SEO
-- GIT
-- Upload to the server
-- Customer Analysis
+
+## Tech Stack
+
+HTML5 - CSS3 - Bootstrap - SASS - Flex box - Grids
+
+JS Libraries: Owl.Carousel.js - Smooth-Scroll.js - Typed.js - Wow.js
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/andresfernandez89/web-design-project.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andresfernandez89/)
+
